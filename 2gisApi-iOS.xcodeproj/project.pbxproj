@@ -1,746 +1,431 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-	<key>archiveVersion</key>
-	<string>1</string>
-	<key>classes</key>
-	<dict/>
-	<key>objectVersion</key>
-	<string>46</string>
-	<key>objects</key>
-	<dict>
-		<key>4930563015C542F5904871DC</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>libPods.a</string>
-			<key>path</key>
-			<string>libPods.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>7745787E0E3641CC80F7519C</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods.xcconfig</string>
-			<key>path</key>
-			<string>Pods/Pods.xcconfig</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>8BDC268416FB14BC0008EEBB</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>8BDC269616FB14BC0008EEBB</string>
-				<string>8BDC268F16FB14BC0008EEBB</string>
-				<string>8BDC268E16FB14BC0008EEBB</string>
-				<string>7745787E0E3641CC80F7519C</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8BDC268516FB14BC0008EEBB</key>
-		<dict>
-			<key>attributes</key>
-			<dict>
-				<key>CLASSPREFIX</key>
-				<string>TG</string>
-				<key>LastUpgradeCheck</key>
-				<string>0460</string>
-				<key>ORGANIZATIONNAME</key>
-				<string>crtweb</string>
-			</dict>
-			<key>buildConfigurationList</key>
-			<string>8BDC268816FB14BC0008EEBB</string>
-			<key>compatibilityVersion</key>
-			<string>Xcode 3.2</string>
-			<key>developmentRegion</key>
-			<string>English</string>
-			<key>hasScannedForEncodings</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXProject</string>
-			<key>knownRegions</key>
-			<array>
-				<string>en</string>
-			</array>
-			<key>mainGroup</key>
-			<string>8BDC268416FB14BC0008EEBB</string>
-			<key>productRefGroup</key>
-			<string>8BDC268E16FB14BC0008EEBB</string>
-			<key>projectDirPath</key>
-			<string></string>
-			<key>projectReferences</key>
-			<array/>
-			<key>projectRoot</key>
-			<string></string>
-			<key>targets</key>
-			<array>
-				<string>8BDC268C16FB14BC0008EEBB</string>
-			</array>
-		</dict>
-		<key>8BDC268816FB14BC0008EEBB</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>8BDC26AE16FB14BC0008EEBB</string>
-				<string>8BDC26AF16FB14BC0008EEBB</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>8BDC268916FB14BC0008EEBB</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>8BDC269D16FB14BC0008EEBB</string>
-				<string>8BDC26AD16FB14BC0008EEBB</string>
-				<string>8BDC26B816FB188C0008EEBB</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>8BDC268A16FB14BC0008EEBB</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>8BDC269116FB14BC0008EEBB</string>
-				<string>8BDC269316FB14BC0008EEBB</string>
-				<string>8BDC269516FB14BC0008EEBB</string>
-				<string>ABD7F41160114F6ABEC2F586</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>8BDC268B16FB14BC0008EEBB</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>8BDC269B16FB14BC0008EEBB</string>
-				<string>8BDC26A316FB14BC0008EEBB</string>
-				<string>8BDC26A516FB14BC0008EEBB</string>
-				<string>8BDC26A716FB14BC0008EEBB</string>
-				<string>8BDC26B716FB188C0008EEBB</string>
-			</array>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>8BDC268C16FB14BC0008EEBB</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>8BDC26B016FB14BC0008EEBB</string>
-			<key>buildPhases</key>
-			<array>
-				<string>8BDC268916FB14BC0008EEBB</string>
-				<string>8BDC268A16FB14BC0008EEBB</string>
-				<string>8BDC268B16FB14BC0008EEBB</string>
-				<string>C0155F2C837247D8B23C825F</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>2gisApi-iOS</string>
-			<key>productName</key>
-			<string>2gisApi-iOS</string>
-			<key>productReference</key>
-			<string>8BDC268D16FB14BC0008EEBB</string>
-			<key>productType</key>
-			<string>com.apple.product-type.application</string>
-		</dict>
-		<key>8BDC268D16FB14BC0008EEBB</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.application</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>2gisApi-iOS.app</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>8BDC268E16FB14BC0008EEBB</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>8BDC268D16FB14BC0008EEBB</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Products</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8BDC268F16FB14BC0008EEBB</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>8BDC269016FB14BC0008EEBB</string>
-				<string>8BDC269216FB14BC0008EEBB</string>
-				<string>8BDC269416FB14BC0008EEBB</string>
-				<string>4930563015C542F5904871DC</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8BDC269016FB14BC0008EEBB</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>UIKit.framework</string>
-			<key>path</key>
-			<string>System/Library/Frameworks/UIKit.framework</string>
-			<key>sourceTree</key>
-			<string>SDKROOT</string>
-		</dict>
-		<key>8BDC269116FB14BC0008EEBB</key>
-		<dict>
-			<key>fileRef</key>
-			<string>8BDC269016FB14BC0008EEBB</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>8BDC269216FB14BC0008EEBB</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>Foundation.framework</string>
-			<key>path</key>
-			<string>System/Library/Frameworks/Foundation.framework</string>
-			<key>sourceTree</key>
-			<string>SDKROOT</string>
-		</dict>
-		<key>8BDC269316FB14BC0008EEBB</key>
-		<dict>
-			<key>fileRef</key>
-			<string>8BDC269216FB14BC0008EEBB</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>8BDC269416FB14BC0008EEBB</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>CoreGraphics.framework</string>
-			<key>path</key>
-			<string>System/Library/Frameworks/CoreGraphics.framework</string>
-			<key>sourceTree</key>
-			<string>SDKROOT</string>
-		</dict>
-		<key>8BDC269516FB14BC0008EEBB</key>
-		<dict>
-			<key>fileRef</key>
-			<string>8BDC269416FB14BC0008EEBB</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>8BDC269616FB14BC0008EEBB</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>8BDC26B316FB188C0008EEBB</string>
-				<string>8BDC26AB16FB14BC0008EEBB</string>
-				<string>8BDC26AC16FB14BC0008EEBB</string>
-				<string>8BDC269716FB14BC0008EEBB</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>2gisApi-iOS</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8BDC269716FB14BC0008EEBB</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>8BDC269816FB14BC0008EEBB</string>
-				<string>8BDC269916FB14BC0008EEBB</string>
-				<string>8BDC269C16FB14BC0008EEBB</string>
-				<string>8BDC269E16FB14BC0008EEBB</string>
-				<string>8BDC26A216FB14BC0008EEBB</string>
-				<string>8BDC26A416FB14BC0008EEBB</string>
-				<string>8BDC26A616FB14BC0008EEBB</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Supporting Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8BDC269816FB14BC0008EEBB</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>2gisApi-iOS-Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8BDC269916FB14BC0008EEBB</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>8BDC269A16FB14BC0008EEBB</string>
-			</array>
-			<key>isa</key>
-			<string>PBXVariantGroup</string>
-			<key>name</key>
-			<string>InfoPlist.strings</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8BDC269A16FB14BC0008EEBB</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.strings</string>
-			<key>name</key>
-			<string>en</string>
-			<key>path</key>
-			<string>en.lproj/InfoPlist.strings</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8BDC269B16FB14BC0008EEBB</key>
-		<dict>
-			<key>fileRef</key>
-			<string>8BDC269916FB14BC0008EEBB</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>8BDC269C16FB14BC0008EEBB</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>main.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8BDC269D16FB14BC0008EEBB</key>
-		<dict>
-			<key>fileRef</key>
-			<string>8BDC269C16FB14BC0008EEBB</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>8BDC269E16FB14BC0008EEBB</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>2gisApi-iOS-Prefix.pch</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8BDC26A216FB14BC0008EEBB</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>Default.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8BDC26A316FB14BC0008EEBB</key>
-		<dict>
-			<key>fileRef</key>
-			<string>8BDC26A216FB14BC0008EEBB</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>8BDC26A416FB14BC0008EEBB</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>Default@2x.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8BDC26A516FB14BC0008EEBB</key>
-		<dict>
-			<key>fileRef</key>
-			<string>8BDC26A416FB14BC0008EEBB</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>8BDC26A616FB14BC0008EEBB</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>Default-568h@2x.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8BDC26A716FB14BC0008EEBB</key>
-		<dict>
-			<key>fileRef</key>
-			<string>8BDC26A616FB14BC0008EEBB</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>8BDC26AB16FB14BC0008EEBB</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>TGViewController.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8BDC26AC16FB14BC0008EEBB</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>TGViewController.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8BDC26AD16FB14BC0008EEBB</key>
-		<dict>
-			<key>fileRef</key>
-			<string>8BDC26AC16FB14BC0008EEBB</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>8BDC26AE16FB14BC0008EEBB</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>6.1</string>
-				<key>ONLY_ACTIVE_ARCH</key>
-				<string>YES</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>8BDC26AF16FB14BC0008EEBB</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>6.1</string>
-				<key>OTHER_CFLAGS</key>
-				<string>-DNS_BLOCK_ASSERTIONS=1</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>8BDC26B016FB14BC0008EEBB</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>8BDC26B116FB14BC0008EEBB</string>
-				<string>8BDC26B216FB14BC0008EEBB</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>8BDC26B116FB14BC0008EEBB</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>7745787E0E3641CC80F7519C</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>2gisApi-iOS/2gisApi-iOS-Prefix.pch</string>
-				<key>INFOPLIST_FILE</key>
-				<string>2gisApi-iOS/2gisApi-iOS-Info.plist</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>WRAPPER_EXTENSION</key>
-				<string>app</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>8BDC26B216FB14BC0008EEBB</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>7745787E0E3641CC80F7519C</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>2gisApi-iOS/2gisApi-iOS-Prefix.pch</string>
-				<key>INFOPLIST_FILE</key>
-				<string>2gisApi-iOS/2gisApi-iOS-Info.plist</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>WRAPPER_EXTENSION</key>
-				<string>app</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>8BDC26B316FB188C0008EEBB</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>8BDC26B416FB188C0008EEBB</string>
-				<string>8BDC26B516FB188C0008EEBB</string>
-				<string>8BDC26B616FB188C0008EEBB</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>Application</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8BDC26B416FB188C0008EEBB</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>file.storyboard</string>
-			<key>path</key>
-			<string>MainStoryboard.storyboard</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8BDC26B516FB188C0008EEBB</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>TGAppDelegate.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8BDC26B616FB188C0008EEBB</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>TGAppDelegate.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8BDC26B716FB188C0008EEBB</key>
-		<dict>
-			<key>fileRef</key>
-			<string>8BDC26B416FB188C0008EEBB</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>8BDC26B816FB188C0008EEBB</key>
-		<dict>
-			<key>fileRef</key>
-			<string>8BDC26B616FB188C0008EEBB</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>ABD7F41160114F6ABEC2F586</key>
-		<dict>
-			<key>fileRef</key>
-			<string>4930563015C542F5904871DC</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>C0155F2C837247D8B23C825F</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>Copy Pods Resources</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>"${SRCROOT}/Pods/Pods-resources.sh"
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>1</string>
-		</dict>
-	</dict>
-	<key>rootObject</key>
-	<string>8BDC268516FB14BC0008EEBB</string>
-</dict>
-</plist>
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8B40662117014E080036EA64 /* TGConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B40662017014E080036EA64 /* TGConfiguration.m */; };
+		8B406629170151500036EA64 /* TGisClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B406628170151500036EA64 /* TGisClient.m */; };
+		8B40662D1701648F0036EA64 /* TGGeoObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B40662C1701648F0036EA64 /* TGGeoObject.m */; };
+		8B4066301701668A0036EA64 /* TGGeoObjectHouse.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B40662F1701668A0036EA64 /* TGGeoObjectHouse.m */; };
+		8B406633170167F40036EA64 /* TGRubric.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B406632170167F40036EA64 /* TGRubric.m */; };
+		8B4066361701683A0036EA64 /* TGRubricCount.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B4066351701683A0036EA64 /* TGRubricCount.m */; };
+		8B406639170168D70036EA64 /* TGGeoObjectStreet.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B406638170168D60036EA64 /* TGGeoObjectStreet.m */; };
+		8B40663C170169250036EA64 /* TGGeoObjectLivingArea.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B40663B170169240036EA64 /* TGGeoObjectLivingArea.m */; };
+		8B40663F170169570036EA64 /* TGGeoObjectSettlement.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B40663E170169560036EA64 /* TGGeoObjectSettlement.m */; };
+		8B40664217016A0C0036EA64 /* TGGeoObjectStation.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B40664117016A0B0036EA64 /* TGGeoObjectStation.m */; };
+		8B40664517016A800036EA64 /* TGGeoObjectSight.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B40664417016A7F0036EA64 /* TGGeoObjectSight.m */; };
+		8BDC269116FB14BC0008EEBB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BDC269016FB14BC0008EEBB /* UIKit.framework */; };
+		8BDC269316FB14BC0008EEBB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BDC269216FB14BC0008EEBB /* Foundation.framework */; };
+		8BDC269516FB14BC0008EEBB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BDC269416FB14BC0008EEBB /* CoreGraphics.framework */; };
+		8BDC269B16FB14BC0008EEBB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8BDC269916FB14BC0008EEBB /* InfoPlist.strings */; };
+		8BDC269D16FB14BC0008EEBB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BDC269C16FB14BC0008EEBB /* main.m */; };
+		8BDC26A316FB14BC0008EEBB /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 8BDC26A216FB14BC0008EEBB /* Default.png */; };
+		8BDC26A516FB14BC0008EEBB /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8BDC26A416FB14BC0008EEBB /* Default@2x.png */; };
+		8BDC26A716FB14BC0008EEBB /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8BDC26A616FB14BC0008EEBB /* Default-568h@2x.png */; };
+		8BDC26AD16FB14BC0008EEBB /* TGViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BDC26AC16FB14BC0008EEBB /* TGViewController.m */; };
+		8BDC26B716FB188C0008EEBB /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BDC26B416FB188C0008EEBB /* MainStoryboard.storyboard */; };
+		8BDC26B816FB188C0008EEBB /* TGAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BDC26B616FB188C0008EEBB /* TGAppDelegate.m */; };
+		ABD7F41160114F6ABEC2F586 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4930563015C542F5904871DC /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4930563015C542F5904871DC /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		7745787E0E3641CC80F7519C /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
+		8B40661F17014E080036EA64 /* TGConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGConfiguration.h; sourceTree = "<group>"; };
+		8B40662017014E080036EA64 /* TGConfiguration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGConfiguration.m; sourceTree = "<group>"; };
+		8B406627170151500036EA64 /* TGisClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGisClient.h; sourceTree = "<group>"; };
+		8B406628170151500036EA64 /* TGisClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGisClient.m; sourceTree = "<group>"; };
+		8B40662B1701648F0036EA64 /* TGGeoObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGGeoObject.h; sourceTree = "<group>"; };
+		8B40662C1701648F0036EA64 /* TGGeoObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGGeoObject.m; sourceTree = "<group>"; };
+		8B40662E1701668A0036EA64 /* TGGeoObjectHouse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGGeoObjectHouse.h; sourceTree = "<group>"; };
+		8B40662F1701668A0036EA64 /* TGGeoObjectHouse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGGeoObjectHouse.m; sourceTree = "<group>"; };
+		8B406631170167F40036EA64 /* TGRubric.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGRubric.h; sourceTree = "<group>"; };
+		8B406632170167F40036EA64 /* TGRubric.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGRubric.m; sourceTree = "<group>"; };
+		8B4066341701683A0036EA64 /* TGRubricCount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGRubricCount.h; sourceTree = "<group>"; };
+		8B4066351701683A0036EA64 /* TGRubricCount.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGRubricCount.m; sourceTree = "<group>"; };
+		8B406637170168D60036EA64 /* TGGeoObjectStreet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGGeoObjectStreet.h; sourceTree = "<group>"; };
+		8B406638170168D60036EA64 /* TGGeoObjectStreet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGGeoObjectStreet.m; sourceTree = "<group>"; };
+		8B40663A170169240036EA64 /* TGGeoObjectLivingArea.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGGeoObjectLivingArea.h; sourceTree = "<group>"; };
+		8B40663B170169240036EA64 /* TGGeoObjectLivingArea.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGGeoObjectLivingArea.m; sourceTree = "<group>"; };
+		8B40663D170169560036EA64 /* TGGeoObjectSettlement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGGeoObjectSettlement.h; sourceTree = "<group>"; };
+		8B40663E170169560036EA64 /* TGGeoObjectSettlement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGGeoObjectSettlement.m; sourceTree = "<group>"; };
+		8B40664017016A0B0036EA64 /* TGGeoObjectStation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGGeoObjectStation.h; sourceTree = "<group>"; };
+		8B40664117016A0B0036EA64 /* TGGeoObjectStation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGGeoObjectStation.m; sourceTree = "<group>"; };
+		8B40664317016A7F0036EA64 /* TGGeoObjectSight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGGeoObjectSight.h; sourceTree = "<group>"; };
+		8B40664417016A7F0036EA64 /* TGGeoObjectSight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGGeoObjectSight.m; sourceTree = "<group>"; };
+		8BDC268D16FB14BC0008EEBB /* 2gisApi-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "2gisApi-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BDC269016FB14BC0008EEBB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8BDC269216FB14BC0008EEBB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8BDC269416FB14BC0008EEBB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8BDC269816FB14BC0008EEBB /* 2gisApi-iOS-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "2gisApi-iOS-Info.plist"; sourceTree = "<group>"; };
+		8BDC269A16FB14BC0008EEBB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8BDC269C16FB14BC0008EEBB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8BDC269E16FB14BC0008EEBB /* 2gisApi-iOS-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "2gisApi-iOS-Prefix.pch"; sourceTree = "<group>"; };
+		8BDC26A216FB14BC0008EEBB /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		8BDC26A416FB14BC0008EEBB /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		8BDC26A616FB14BC0008EEBB /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		8BDC26AB16FB14BC0008EEBB /* TGViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TGViewController.h; sourceTree = "<group>"; };
+		8BDC26AC16FB14BC0008EEBB /* TGViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TGViewController.m; sourceTree = "<group>"; };
+		8BDC26B416FB188C0008EEBB /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
+		8BDC26B516FB188C0008EEBB /* TGAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGAppDelegate.h; sourceTree = "<group>"; };
+		8BDC26B616FB188C0008EEBB /* TGAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGAppDelegate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8BDC268A16FB14BC0008EEBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BDC269116FB14BC0008EEBB /* UIKit.framework in Frameworks */,
+				8BDC269316FB14BC0008EEBB /* Foundation.framework in Frameworks */,
+				8BDC269516FB14BC0008EEBB /* CoreGraphics.framework in Frameworks */,
+				ABD7F41160114F6ABEC2F586 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8B40661917014C340036EA64 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				8B40662A1701647C0036EA64 /* GeoObject */,
+				8B406625170151360036EA64 /* TGisClient */,
+				8B40661B17014D3C0036EA64 /* Configuration */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		8B40661B17014D3C0036EA64 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				8B40661F17014E080036EA64 /* TGConfiguration.h */,
+				8B40662017014E080036EA64 /* TGConfiguration.m */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		8B406625170151360036EA64 /* TGisClient */ = {
+			isa = PBXGroup;
+			children = (
+				8B406627170151500036EA64 /* TGisClient.h */,
+				8B406628170151500036EA64 /* TGisClient.m */,
+			);
+			path = TGisClient;
+			sourceTree = "<group>";
+		};
+		8B40662A1701647C0036EA64 /* GeoObject */ = {
+			isa = PBXGroup;
+			children = (
+				8B406631170167F40036EA64 /* TGRubric.h */,
+				8B406632170167F40036EA64 /* TGRubric.m */,
+				8B4066341701683A0036EA64 /* TGRubricCount.h */,
+				8B4066351701683A0036EA64 /* TGRubricCount.m */,
+				8B40662B1701648F0036EA64 /* TGGeoObject.h */,
+				8B40662C1701648F0036EA64 /* TGGeoObject.m */,
+				8B40662E1701668A0036EA64 /* TGGeoObjectHouse.h */,
+				8B40662F1701668A0036EA64 /* TGGeoObjectHouse.m */,
+				8B406637170168D60036EA64 /* TGGeoObjectStreet.h */,
+				8B406638170168D60036EA64 /* TGGeoObjectStreet.m */,
+				8B40663A170169240036EA64 /* TGGeoObjectLivingArea.h */,
+				8B40663B170169240036EA64 /* TGGeoObjectLivingArea.m */,
+				8B40663D170169560036EA64 /* TGGeoObjectSettlement.h */,
+				8B40663E170169560036EA64 /* TGGeoObjectSettlement.m */,
+				8B40664017016A0B0036EA64 /* TGGeoObjectStation.h */,
+				8B40664117016A0B0036EA64 /* TGGeoObjectStation.m */,
+				8B40664317016A7F0036EA64 /* TGGeoObjectSight.h */,
+				8B40664417016A7F0036EA64 /* TGGeoObjectSight.m */,
+			);
+			path = GeoObject;
+			sourceTree = "<group>";
+		};
+		8BDC268416FB14BC0008EEBB = {
+			isa = PBXGroup;
+			children = (
+				8BDC269616FB14BC0008EEBB /* 2gisApi-iOS */,
+				8BDC268F16FB14BC0008EEBB /* Frameworks */,
+				8BDC268E16FB14BC0008EEBB /* Products */,
+				7745787E0E3641CC80F7519C /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		8BDC268E16FB14BC0008EEBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8BDC268D16FB14BC0008EEBB /* 2gisApi-iOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8BDC268F16FB14BC0008EEBB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8BDC269016FB14BC0008EEBB /* UIKit.framework */,
+				8BDC269216FB14BC0008EEBB /* Foundation.framework */,
+				8BDC269416FB14BC0008EEBB /* CoreGraphics.framework */,
+				4930563015C542F5904871DC /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8BDC269616FB14BC0008EEBB /* 2gisApi-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				8B40661917014C340036EA64 /* Classes */,
+				8BDC26B316FB188C0008EEBB /* Application */,
+				8BDC26AB16FB14BC0008EEBB /* TGViewController.h */,
+				8BDC26AC16FB14BC0008EEBB /* TGViewController.m */,
+				8BDC269716FB14BC0008EEBB /* Supporting Files */,
+			);
+			path = "2gisApi-iOS";
+			sourceTree = "<group>";
+		};
+		8BDC269716FB14BC0008EEBB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8BDC269816FB14BC0008EEBB /* 2gisApi-iOS-Info.plist */,
+				8BDC269916FB14BC0008EEBB /* InfoPlist.strings */,
+				8BDC269C16FB14BC0008EEBB /* main.m */,
+				8BDC269E16FB14BC0008EEBB /* 2gisApi-iOS-Prefix.pch */,
+				8BDC26A216FB14BC0008EEBB /* Default.png */,
+				8BDC26A416FB14BC0008EEBB /* Default@2x.png */,
+				8BDC26A616FB14BC0008EEBB /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8BDC26B316FB188C0008EEBB /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				8BDC26B416FB188C0008EEBB /* MainStoryboard.storyboard */,
+				8BDC26B516FB188C0008EEBB /* TGAppDelegate.h */,
+				8BDC26B616FB188C0008EEBB /* TGAppDelegate.m */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8BDC268C16FB14BC0008EEBB /* 2gisApi-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8BDC26B016FB14BC0008EEBB /* Build configuration list for PBXNativeTarget "2gisApi-iOS" */;
+			buildPhases = (
+				8BDC268916FB14BC0008EEBB /* Sources */,
+				8BDC268A16FB14BC0008EEBB /* Frameworks */,
+				8BDC268B16FB14BC0008EEBB /* Resources */,
+				C0155F2C837247D8B23C825F /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "2gisApi-iOS";
+			productName = "2gisApi-iOS";
+			productReference = 8BDC268D16FB14BC0008EEBB /* 2gisApi-iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8BDC268516FB14BC0008EEBB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TG;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = crtweb;
+			};
+			buildConfigurationList = 8BDC268816FB14BC0008EEBB /* Build configuration list for PBXProject "2gisApi-iOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8BDC268416FB14BC0008EEBB;
+			productRefGroup = 8BDC268E16FB14BC0008EEBB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8BDC268C16FB14BC0008EEBB /* 2gisApi-iOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8BDC268B16FB14BC0008EEBB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BDC269B16FB14BC0008EEBB /* InfoPlist.strings in Resources */,
+				8BDC26A316FB14BC0008EEBB /* Default.png in Resources */,
+				8BDC26A516FB14BC0008EEBB /* Default@2x.png in Resources */,
+				8BDC26A716FB14BC0008EEBB /* Default-568h@2x.png in Resources */,
+				8BDC26B716FB188C0008EEBB /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C0155F2C837247D8B23C825F /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8BDC268916FB14BC0008EEBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BDC269D16FB14BC0008EEBB /* main.m in Sources */,
+				8BDC26AD16FB14BC0008EEBB /* TGViewController.m in Sources */,
+				8BDC26B816FB188C0008EEBB /* TGAppDelegate.m in Sources */,
+				8B40662117014E080036EA64 /* TGConfiguration.m in Sources */,
+				8B406629170151500036EA64 /* TGisClient.m in Sources */,
+				8B40662D1701648F0036EA64 /* TGGeoObject.m in Sources */,
+				8B4066301701668A0036EA64 /* TGGeoObjectHouse.m in Sources */,
+				8B406633170167F40036EA64 /* TGRubric.m in Sources */,
+				8B4066361701683A0036EA64 /* TGRubricCount.m in Sources */,
+				8B406639170168D70036EA64 /* TGGeoObjectStreet.m in Sources */,
+				8B40663C170169250036EA64 /* TGGeoObjectLivingArea.m in Sources */,
+				8B40663F170169570036EA64 /* TGGeoObjectSettlement.m in Sources */,
+				8B40664217016A0C0036EA64 /* TGGeoObjectStation.m in Sources */,
+				8B40664517016A800036EA64 /* TGGeoObjectSight.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8BDC269916FB14BC0008EEBB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8BDC269A16FB14BC0008EEBB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8BDC26AE16FB14BC0008EEBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8BDC26AF16FB14BC0008EEBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8BDC26B116FB14BC0008EEBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7745787E0E3641CC80F7519C /* Pods.xcconfig */;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "2gisApi-iOS/2gisApi-iOS-Prefix.pch";
+				INFOPLIST_FILE = "2gisApi-iOS/2gisApi-iOS-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8BDC26B216FB14BC0008EEBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7745787E0E3641CC80F7519C /* Pods.xcconfig */;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "2gisApi-iOS/2gisApi-iOS-Prefix.pch";
+				INFOPLIST_FILE = "2gisApi-iOS/2gisApi-iOS-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8BDC268816FB14BC0008EEBB /* Build configuration list for PBXProject "2gisApi-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BDC26AE16FB14BC0008EEBB /* Debug */,
+				8BDC26AF16FB14BC0008EEBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8BDC26B016FB14BC0008EEBB /* Build configuration list for PBXNativeTarget "2gisApi-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BDC26B116FB14BC0008EEBB /* Debug */,
+				8BDC26B216FB14BC0008EEBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8BDC268516FB14BC0008EEBB /* Project object */;
+}

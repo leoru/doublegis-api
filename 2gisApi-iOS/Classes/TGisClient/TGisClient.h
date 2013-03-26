@@ -1,0 +1,21 @@
+//
+//  TGisClient.h
+//  2gisApi-iOS
+//
+//  Created by Danyar Salahutdinov on 26.03.13.
+//  Copyright (c) 2013 crtweb. All rights reserved.
+//
+
+#import <Foundation/Foundation.h>
+#import "AFHTTPClient.h"
+#import "TGConfiguration.h"
+#import "TGGeoObject.h"
+
+@interface TGisClient : AFHTTPClient
+
+@property (nonatomic,retain) TGConfiguration *configuraion;
+
++(TGisClient *)sharedClient;
++(TGisClient *)createClient;
+
+@end
