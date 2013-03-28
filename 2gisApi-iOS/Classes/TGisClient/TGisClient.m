@@ -9,6 +9,7 @@
 #import "TGisClient.h"
 
 static TGisClient *_sharedClient;
+
 @implementation TGisClient
 
 +(TGisClient *)sharedClient{

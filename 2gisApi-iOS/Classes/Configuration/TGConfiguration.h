@@ -11,15 +11,15 @@
 typedef enum{
     TGResponseFromatFull,
     TGResponseFromatShort
-}TGResponseFromat;
+} TGResponseFromat;
 
 @interface TGConfiguration : NSObject
 
--(NSString *)apiKey;
--(NSString *)version;
--(NSString *)catalogUrl;
--(TGResponseFromat)responseFormat;
--(int)limit;
++(NSString *)apiKey;
++(NSString *)version;
++(NSString *)catalogUrl;
++(TGResponseFromat)responseFormat;
++(int)limit;
 
 
 @end

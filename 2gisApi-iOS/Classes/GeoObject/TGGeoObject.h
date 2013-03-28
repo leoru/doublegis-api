@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-typedef enum{
+typedef enum {
     TGGeoObjectTypeProject,
     TGGeoObjectTypeDistrict,
     TGGeoObjectTypeHouse,
@@ -22,13 +22,14 @@ typedef enum{
     TGGeoObjectTypeSight,
     TGGeoObjectTypeCrossroad,
     TGGeoObjectTypeMetro
-}TGGeoObjectType;
+} TGGeoObjectType;
 
 @interface TGGeoObject : NSObject
 
+@property (nonatomic) TGGeoObjectType type;
+
 @property (nonatomic,retain) NSNumber *id;
 @property (nonatomic,retain) NSNumber *projectId;
-@property (nonatomic) TGGeoObjectType type;
 @property (nonatomic,retain) NSString *name;
 @property (nonatomic,retain) NSString *shortName;
 @property (nonatomic,retain) NSString *selection;

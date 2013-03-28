@@ -10,23 +10,23 @@
 
 @implementation TGConfiguration
 
--(NSString *)apiKey{
-    return @"";
++(NSString *)apiKey{
+    return @"rusqmy7744";
 }
 
--(NSString *)version{
++(NSString *)version{
     return @"1.3";
 }
 
--(NSString *)catalogUrl{
++(NSString *)catalogUrl{
     return @"http://catalog.api.2gis.ru/geo/search";
 }
 
--(TGResponseFromat)responseFormat{
++(TGResponseFromat)responseFormat{
     return TGResponseFromatFull;
 }
 
--(int)limit{
++(int)limit{
     return 1;
 }
 

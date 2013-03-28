@@ -29,6 +29,8 @@
 		8BDC26AD16FB14BC0008EEBB /* TGViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BDC26AC16FB14BC0008EEBB /* TGViewController.m */; };
 		8BDC26B716FB188C0008EEBB /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BDC26B416FB188C0008EEBB /* MainStoryboard.storyboard */; };
 		8BDC26B816FB188C0008EEBB /* TGAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BDC26B616FB188C0008EEBB /* TGAppDelegate.m */; };
+		A4E0E4BD17040B9D00389FCB /* TGisRequestParams.m in Sources */ = {isa = PBXBuildFile; fileRef = A4E0E4BC17040B9D00389FCB /* TGisRequestParams.m */; };
+		A4E0E4C01704100F00389FCB /* TGError.m in Sources */ = {isa = PBXBuildFile; fileRef = A4E0E4BF1704100F00389FCB /* TGError.m */; };
 		ABD7F41160114F6ABEC2F586 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4930563015C542F5904871DC /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -73,6 +75,10 @@
 		8BDC26B416FB188C0008EEBB /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
 		8BDC26B516FB188C0008EEBB /* TGAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGAppDelegate.h; sourceTree = "<group>"; };
 		8BDC26B616FB188C0008EEBB /* TGAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGAppDelegate.m; sourceTree = "<group>"; };
+		A4E0E4BB17040B9D00389FCB /* TGisRequestParams.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGisRequestParams.h; sourceTree = "<group>"; };
+		A4E0E4BC17040B9D00389FCB /* TGisRequestParams.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGisRequestParams.m; sourceTree = "<group>"; };
+		A4E0E4BE1704100F00389FCB /* TGError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGError.h; sourceTree = "<group>"; };
+		A4E0E4BF1704100F00389FCB /* TGError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGError.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +99,7 @@
 		8B40661917014C340036EA64 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				A4E0E4B81704078200389FCB /* Directory */,
 				8B40662A1701647C0036EA64 /* GeoObject */,
 				8B406625170151360036EA64 /* TGisClient */,
 				8B40661B17014D3C0036EA64 /* Configuration */,
@@ -114,6 +121,10 @@
 			children = (
 				8B406627170151500036EA64 /* TGisClient.h */,
 				8B406628170151500036EA64 /* TGisClient.m */,
+				A4E0E4BB17040B9D00389FCB /* TGisRequestParams.h */,
+				A4E0E4BC17040B9D00389FCB /* TGisRequestParams.m */,
+				A4E0E4BE1704100F00389FCB /* TGError.h */,
+				A4E0E4BF1704100F00389FCB /* TGError.m */,
 			);
 			path = TGisClient;
 			sourceTree = "<group>";
@@ -206,6 +217,13 @@
 				8BDC26B616FB188C0008EEBB /* TGAppDelegate.m */,
 			);
 			path = Application;
+			sourceTree = "<group>";
+		};
+		A4E0E4B81704078200389FCB /* Directory */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Directory;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -307,6 +325,8 @@
 				8B40663F170169570036EA64 /* TGGeoObjectSettlement.m in Sources */,
 				8B40664217016A0C0036EA64 /* TGGeoObjectStation.m in Sources */,
 				8B40664517016A800036EA64 /* TGGeoObjectSight.m in Sources */,
+				A4E0E4BD17040B9D00389FCB /* TGisRequestParams.m in Sources */,
+				A4E0E4C01704100F00389FCB /* TGError.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
