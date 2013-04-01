@@ -12,7 +12,7 @@ static TGisClient *_sharedClient;
 
 @implementation TGisClient
 
-+(TGisClient *)sharedClient{
++(id)sharedClient{
     if (!_sharedClient){
         static dispatch_once_t onceToken;
         dispatch_once(&onceToken,^{
@@ -22,18 +22,66 @@ static TGisClient *_sharedClient;
     return _sharedClient;
 }
 
-+(TGisClient *)createClient{
-    NSURL *url = [NSURL URLWithString:[[[TGisClient sharedClient] configuraion] catalogUrl]];
-    TGisClient *client = [[TGisClient alloc] initWithBaseURL:url];
-    return client;
+
+-(id)init {
+    self = [self initWithBaseURL:[TGConfiguration catalogUrl]];
+    if (self) {
+        [self registerHTTPOperationClass:[AFJSONRequestOperation class]];
+		[self setDefaultHeader:@"Accept" value:@"application/json"];
+    }
+    return self;
 }
 
--(TGisClient *)initWithBaseURL:(NSURL *)url{
+-(id)initWithBaseURL:(NSURL *)url {
     self = [super initWithBaseURL:url];
-    if (!self){
+    if (!self) {
         return nil;
     }
     return self;
+}
+
+
+-(void)firmsWithParams:(TGRequestParams *)params success:(TGHTTPClientSuccessWithArray)success failure:(TGHTTPClientFailure)failure {
+    NSString *urlString = [NSString stringWithFormat:@"/search"];
+    urlString = [urlString stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
+    
+    [self getPath:urlString parameters:[params toDictionary]  success:^(AFHTTPRequestOperation *operation, id responseObject) {
+        NSDictionary *response = (NSDictionary *)responseObject;
+        NSString *responseCode = response[@"response_code"];
+        if ([responseCode isEqualToString:@"200"]) {
+            NSDictionary *result = response[@"result"];
+            
+            NSArray *firms = [NSArray array];
+            for (NSDictionary *resultDict in result) {
+                TGFirm *firm = [TGFirm objectFromJSONDictionary:resultDict];
+                firms = [firms arrayByAddingObject:firm];
+            }
+            
+            success(firms);
+        } else {
+            
+        }
+    } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
+        
+    }];
+}
+
+-(void)firmWithParams:(TGRequestParams *)params success:(void (^)(TGFirm *))success failure:(TGHTTPClientFailure)failure {
+    NSString *urlString = [NSString stringWithFormat:@"/profile"];
+    urlString = [urlString stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
+    
+    [self getPath:urlString parameters:[params toDictionary]  success:^(AFHTTPRequestOperation *operation, id responseObject) {
+        NSDictionary *response = (NSDictionary *)responseObject;
+        NSString *responseCode = response[@"response_code"];
+        if ([responseCode isEqualToString:@"200"]) {
+            TGFirm *firm = [TGFirm objectFromJSONDictionary:response];
+            success(firm);
+        } else {
+            
+        }
+    } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
+        
+    }];
 }
 
 @end

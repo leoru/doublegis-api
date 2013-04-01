@@ -7,9 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <CoreLocation/CoreLocation.h>
 
-@interface TGAppDelegate : UIResponder <UIApplicationDelegate>
+@interface TGAppDelegate : UIResponder <UIApplicationDelegate, CLLocationManagerDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
+
+//Add a location manager property to this app delegate
+@property (strong, nonatomic) CLLocationManager *locationManager;
 
 @end

@@ -18,8 +18,8 @@
     return @"1.3";
 }
 
-+(NSString *)catalogUrl{
-    return @"http://catalog.api.2gis.ru/geo/search";
++(NSURL *)catalogUrl{
+    return [NSURL URLWithString:kAPI_STRING];
 }
 
 +(TGResponseFromat)responseFormat{

@@ -8,6 +8,8 @@
 
 #import <Foundation/Foundation.h>
 
+#define kAPI_STRING @"http://catalog.api.2gis.ru/"
+
 typedef enum{
     TGResponseFromatFull,
     TGResponseFromatShort
@@ -17,7 +19,7 @@ typedef enum{
 
 +(NSString *)apiKey;
 +(NSString *)version;
-+(NSString *)catalogUrl;
++(NSURL *)catalogUrl;
 +(TGResponseFromat)responseFormat;
 +(int)limit;
 

@@ -25,15 +25,17 @@
 
 
 
-@interface TGisRequestParams : NSObject
+@interface TGRequestParams : NSObject
 {
     NSMutableDictionary *_params;
 }
 
 +(id)paramsWithDictionary:(NSDictionary *)dict;
+
 +(id)params;
 
 -(void)addParam:(NSString *)param value:(NSString *)value;
 
-               
+-(NSDictionary *)toDictionary;
+
 @end

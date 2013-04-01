@@ -3,6 +3,9 @@
 //
 
 #import <Availability.h>
+//#import "TGAppDelegate.h"
+//
+//#define SharedAppDelegate (TGAppDelegate *)[UIApplication sharedApplication].delegate
 
 #ifndef __IPHONE_5_0
 #warning "This project uses features only available in iOS SDK 5.0 and later."

@@ -9,12 +9,31 @@
 #import "TGAppDelegate.h"
 
 @implementation TGAppDelegate
+@synthesize locationManager=_locationManager;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    [self configureLocationManager];
     // Override point for customization after application launch.
     return YES;
 }
+
+-(void)configureLocationManager {
+    if(self.locationManager==nil){
+        _locationManager=[[CLLocationManager alloc] init];
+        _locationManager.delegate=self;
+        _locationManager.purpose = @"Мы хотим определить Ваше местоположение";
+        _locationManager.desiredAccuracy=kCLLocationAccuracyBest;
+        _locationManager.distanceFilter=500;
+        self.locationManager=_locationManager;
+    }
+    
+    if ([CLLocationManager locationServicesEnabled]) {
+        [[(TGAppDelegate *)[UIApplication sharedApplication].delegate locationManager] startUpdatingLocation];
+    }
+}
+
+
 							
 - (void)applicationWillResignActive:(UIApplication *)application
 {
@@ -41,6 +60,10 @@
 - (void)applicationWillTerminate:(UIApplication *)application
 {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+}
+
+-(void)locationManager:(CLLocationManager *)manager didUpdateToLocation:(CLLocation *)newLocation fromLocation:(CLLocation *)oldLocation {
+    
 }
 
 @end

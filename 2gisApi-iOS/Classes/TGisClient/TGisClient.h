@@ -8,14 +8,24 @@
 
 #import <Foundation/Foundation.h>
 #import "AFHTTPClient.h"
+#import "AFJSONRequestOperation.h"
 #import "TGConfiguration.h"
-#import "TGGeoObject.h"
+#import "TGRequestParams.h"
+#import "TGFirm.h"
 
 @interface TGisClient : AFHTTPClient
 
+typedef void (^TGHTTPClientSuccess)(void);
+typedef void (^TGHTTPClientSuccessWithArray)(NSArray *objects);
+typedef void (^TGHTTPClientFailure)(NSError *commonError);
+
+
 @property (nonatomic,retain) TGConfiguration *configuraion;
 
-+(TGisClient *)sharedClient;
-+(TGisClient *)createClient;
++(id)sharedClient;
+
+-(void)firmsWithParams:(TGRequestParams *)params success:(TGHTTPClientSuccessWithArray)success failure:(TGHTTPClientFailure)failure;
+
+-(void)firmWithParams:(TGRequestParams *)params success:(void(^)(TGFirm *))success failure:(TGHTTPClientFailure)failure;
 
 @end

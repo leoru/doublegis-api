@@ -6,13 +6,13 @@
 //  Copyright (c) 2013 crtweb. All rights reserved.
 //
 
-#import "TGisRequestParams.h"
+#import "TGRequestParams.h"
 #import "TGConfiguration.h"
 
 #define kApiKey @"key"
 #define kApiVersion @"version"
 
-@implementation TGisRequestParams
+@implementation TGRequestParams
 
 -(id)init {
     self = [super init];
@@ -27,22 +27,25 @@
 -(id)initWithDictionary:(NSDictionary *)dictionary {
     self = [self init];
     if (self) {
-        [params setDictionary:dictionary];
+        [_params setDictionary:dictionary];
     }
     return self;
 }
 
 +(id)params {
-    return [[TGisRequestParams alloc] init];
+    return [[TGRequestParams alloc] init];
 }
 
 +(id)paramsWithDictionary:(NSDictionary *)dict {
-    return [[TGisRequestParams alloc] initWithDictionary:dict];
+    return [[TGRequestParams alloc] initWithDictionary:dict];
 }
 
 -(void)addParam:(NSString *)param value:(NSString *)value {
     [_params setObject:value forKey:param];
 }
 
+-(NSDictionary *)toDictionary {
+    return _params;
+}
 
 @end

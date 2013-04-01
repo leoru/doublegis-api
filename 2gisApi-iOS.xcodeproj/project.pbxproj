@@ -29,8 +29,15 @@
 		8BDC26AD16FB14BC0008EEBB /* TGViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BDC26AC16FB14BC0008EEBB /* TGViewController.m */; };
 		8BDC26B716FB188C0008EEBB /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BDC26B416FB188C0008EEBB /* MainStoryboard.storyboard */; };
 		8BDC26B816FB188C0008EEBB /* TGAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BDC26B616FB188C0008EEBB /* TGAppDelegate.m */; };
-		A4E0E4BD17040B9D00389FCB /* TGisRequestParams.m in Sources */ = {isa = PBXBuildFile; fileRef = A4E0E4BC17040B9D00389FCB /* TGisRequestParams.m */; };
+		A4E0E4BD17040B9D00389FCB /* TGRequestParams.m in Sources */ = {isa = PBXBuildFile; fileRef = A4E0E4BC17040B9D00389FCB /* TGRequestParams.m */; };
 		A4E0E4C01704100F00389FCB /* TGError.m in Sources */ = {isa = PBXBuildFile; fileRef = A4E0E4BF1704100F00389FCB /* TGError.m */; };
+		A4E0E4C917094F8800389FCB /* TGDetectCity.m in Sources */ = {isa = PBXBuildFile; fileRef = A4E0E4C517094F8800389FCB /* TGDetectCity.m */; };
+		A4E0E4CA17094F8800389FCB /* TGLocationDetector.m in Sources */ = {isa = PBXBuildFile; fileRef = A4E0E4C717094F8800389FCB /* TGLocationDetector.m */; };
+		A4E0E4CB17094F8800389FCB /* cities.plist in Resources */ = {isa = PBXBuildFile; fileRef = A4E0E4C817094F8800389FCB /* cities.plist */; };
+		A4E0E4CE170950A700389FCB /* TGFirm.m in Sources */ = {isa = PBXBuildFile; fileRef = A4E0E4CD170950A700389FCB /* TGFirm.m */; };
+		A4E0E4D21709580400389FCB /* TGDayOfWeek.m in Sources */ = {isa = PBXBuildFile; fileRef = A4E0E4D11709580400389FCB /* TGDayOfWeek.m */; };
+		A4E0E4D51709593100389FCB /* TGShedule.m in Sources */ = {isa = PBXBuildFile; fileRef = A4E0E4D41709593100389FCB /* TGShedule.m */; };
+		A4E0E4DA1709A59600389FCB /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4E0E4D91709A59500389FCB /* CoreLocation.framework */; };
 		ABD7F41160114F6ABEC2F586 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4930563015C542F5904871DC /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -75,10 +82,24 @@
 		8BDC26B416FB188C0008EEBB /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
 		8BDC26B516FB188C0008EEBB /* TGAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGAppDelegate.h; sourceTree = "<group>"; };
 		8BDC26B616FB188C0008EEBB /* TGAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGAppDelegate.m; sourceTree = "<group>"; };
-		A4E0E4BB17040B9D00389FCB /* TGisRequestParams.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGisRequestParams.h; sourceTree = "<group>"; };
-		A4E0E4BC17040B9D00389FCB /* TGisRequestParams.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGisRequestParams.m; sourceTree = "<group>"; };
+		A4E0E4BB17040B9D00389FCB /* TGRequestParams.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGRequestParams.h; sourceTree = "<group>"; };
+		A4E0E4BC17040B9D00389FCB /* TGRequestParams.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGRequestParams.m; sourceTree = "<group>"; };
 		A4E0E4BE1704100F00389FCB /* TGError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGError.h; sourceTree = "<group>"; };
 		A4E0E4BF1704100F00389FCB /* TGError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGError.m; sourceTree = "<group>"; };
+		A4E0E4C417094F8800389FCB /* TGDetectCity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGDetectCity.h; sourceTree = "<group>"; };
+		A4E0E4C517094F8800389FCB /* TGDetectCity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGDetectCity.m; sourceTree = "<group>"; };
+		A4E0E4C617094F8800389FCB /* TGLocationDetector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGLocationDetector.h; sourceTree = "<group>"; };
+		A4E0E4C717094F8800389FCB /* TGLocationDetector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGLocationDetector.m; sourceTree = "<group>"; };
+		A4E0E4C817094F8800389FCB /* cities.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = cities.plist; sourceTree = "<group>"; };
+		A4E0E4CC170950A700389FCB /* TGFirm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TGFirm.h; path = Directory/TGFirm.h; sourceTree = "<group>"; };
+		A4E0E4CD170950A700389FCB /* TGFirm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TGFirm.m; path = Directory/TGFirm.m; sourceTree = "<group>"; };
+		A4E0E4D01709580400389FCB /* TGDayOfWeek.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TGDayOfWeek.h; path = Shedule/TGDayOfWeek.h; sourceTree = "<group>"; };
+		A4E0E4D11709580400389FCB /* TGDayOfWeek.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TGDayOfWeek.m; path = Shedule/TGDayOfWeek.m; sourceTree = "<group>"; };
+		A4E0E4D31709593100389FCB /* TGShedule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TGShedule.h; path = Shedule/TGShedule.h; sourceTree = "<group>"; };
+		A4E0E4D41709593100389FCB /* TGShedule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TGShedule.m; path = Shedule/TGShedule.m; sourceTree = "<group>"; };
+		A4E0E4D61709620500389FCB /* TGFromJSONProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TGFromJSONProtocol.h; sourceTree = "<group>"; };
+		A4E0E4D81709A22B00389FCB /* TGApi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TGApi.h; path = Api/TGApi.h; sourceTree = "<group>"; };
+		A4E0E4D91709A59500389FCB /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +107,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4E0E4DA1709A59600389FCB /* CoreLocation.framework in Frameworks */,
 				8BDC269116FB14BC0008EEBB /* UIKit.framework in Frameworks */,
 				8BDC269316FB14BC0008EEBB /* Foundation.framework in Frameworks */,
 				8BDC269516FB14BC0008EEBB /* CoreGraphics.framework in Frameworks */,
@@ -99,6 +121,9 @@
 		8B40661917014C340036EA64 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				A4E0E4D71709A21700389FCB /* Api */,
+				A4E0E4CF170957DE00389FCB /* Schedule */,
+				A4E0E4C317094F8700389FCB /* AutoDetectLocation */,
 				A4E0E4B81704078200389FCB /* Directory */,
 				8B40662A1701647C0036EA64 /* GeoObject */,
 				8B406625170151360036EA64 /* TGisClient */,
@@ -121,10 +146,11 @@
 			children = (
 				8B406627170151500036EA64 /* TGisClient.h */,
 				8B406628170151500036EA64 /* TGisClient.m */,
-				A4E0E4BB17040B9D00389FCB /* TGisRequestParams.h */,
-				A4E0E4BC17040B9D00389FCB /* TGisRequestParams.m */,
+				A4E0E4BB17040B9D00389FCB /* TGRequestParams.h */,
+				A4E0E4BC17040B9D00389FCB /* TGRequestParams.m */,
 				A4E0E4BE1704100F00389FCB /* TGError.h */,
 				A4E0E4BF1704100F00389FCB /* TGError.m */,
+				A4E0E4D61709620500389FCB /* TGFromJSONProtocol.h */,
 			);
 			path = TGisClient;
 			sourceTree = "<group>";
@@ -157,6 +183,7 @@
 		8BDC268416FB14BC0008EEBB = {
 			isa = PBXGroup;
 			children = (
+				A4E0E4D91709A59500389FCB /* CoreLocation.framework */,
 				8BDC269616FB14BC0008EEBB /* 2gisApi-iOS */,
 				8BDC268F16FB14BC0008EEBB /* Frameworks */,
 				8BDC268E16FB14BC0008EEBB /* Products */,
@@ -222,8 +249,41 @@
 		A4E0E4B81704078200389FCB /* Directory */ = {
 			isa = PBXGroup;
 			children = (
+				A4E0E4CC170950A700389FCB /* TGFirm.h */,
+				A4E0E4CD170950A700389FCB /* TGFirm.m */,
 			);
 			name = Directory;
+			sourceTree = "<group>";
+		};
+		A4E0E4C317094F8700389FCB /* AutoDetectLocation */ = {
+			isa = PBXGroup;
+			children = (
+				A4E0E4C417094F8800389FCB /* TGDetectCity.h */,
+				A4E0E4C517094F8800389FCB /* TGDetectCity.m */,
+				A4E0E4C617094F8800389FCB /* TGLocationDetector.h */,
+				A4E0E4C717094F8800389FCB /* TGLocationDetector.m */,
+				A4E0E4C817094F8800389FCB /* cities.plist */,
+			);
+			path = AutoDetectLocation;
+			sourceTree = "<group>";
+		};
+		A4E0E4CF170957DE00389FCB /* Schedule */ = {
+			isa = PBXGroup;
+			children = (
+				A4E0E4D01709580400389FCB /* TGDayOfWeek.h */,
+				A4E0E4D11709580400389FCB /* TGDayOfWeek.m */,
+				A4E0E4D31709593100389FCB /* TGShedule.h */,
+				A4E0E4D41709593100389FCB /* TGShedule.m */,
+			);
+			name = Schedule;
+			sourceTree = "<group>";
+		};
+		A4E0E4D71709A21700389FCB /* Api */ = {
+			isa = PBXGroup;
+			children = (
+				A4E0E4D81709A22B00389FCB /* TGApi.h */,
+			);
+			name = Api;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -284,6 +344,7 @@
 				8BDC26A516FB14BC0008EEBB /* Default@2x.png in Resources */,
 				8BDC26A716FB14BC0008EEBB /* Default-568h@2x.png in Resources */,
 				8BDC26B716FB188C0008EEBB /* MainStoryboard.storyboard in Resources */,
+				A4E0E4CB17094F8800389FCB /* cities.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -325,8 +386,13 @@
 				8B40663F170169570036EA64 /* TGGeoObjectSettlement.m in Sources */,
 				8B40664217016A0C0036EA64 /* TGGeoObjectStation.m in Sources */,
 				8B40664517016A800036EA64 /* TGGeoObjectSight.m in Sources */,
-				A4E0E4BD17040B9D00389FCB /* TGisRequestParams.m in Sources */,
+				A4E0E4BD17040B9D00389FCB /* TGRequestParams.m in Sources */,
 				A4E0E4C01704100F00389FCB /* TGError.m in Sources */,
+				A4E0E4C917094F8800389FCB /* TGDetectCity.m in Sources */,
+				A4E0E4CA17094F8800389FCB /* TGLocationDetector.m in Sources */,
+				A4E0E4CE170950A700389FCB /* TGFirm.m in Sources */,
+				A4E0E4D21709580400389FCB /* TGDayOfWeek.m in Sources */,
+				A4E0E4D51709593100389FCB /* TGShedule.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

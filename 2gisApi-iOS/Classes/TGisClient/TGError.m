@@ -12,7 +12,7 @@
 
 
 +(NSDictionary *)errors {
-    NSDictionary *errors = @[@"methodNotFound":@"Запрошенный метод API не существует.",
+    NSDictionary *errors = @{@"methodNotFound":@"Запрошенный метод API не существует.",
                              @"withoutResult":@"Результаты по запросу не найдены.",
                              @"incorrectGeography":@"Некорректно задано значение поля «Где?» или других полей, отвечающих за географию.",
                              @"forbidden":@"Доступ к API запрещен для ключа, указанного в запросе.",
@@ -46,7 +46,7 @@
                              @"worktimeInvalid":@"Неправильно задан фильтр worktime.",
                              @"idsRequired":@"В запросе отсутствует список идентификаторов.",
                              @"incorrectFormat":@"Некорректно задан параметр format.",
-                             @"tooManyIds":@"В запросе передано слишком много идентификаторов.",];
+                             @"tooManyIds":@"В запросе передано слишком много идентификаторов.",};
 }
 
 +(NSString *)messageForErrorCode:(NSString *)errorCode {

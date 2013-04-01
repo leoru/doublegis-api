@@ -8,6 +8,13 @@
 
 #import <UIKit/UIKit.h>
 
-@interface TGViewController : UIViewController
+@interface TGViewController : UIViewController <UITableViewDataSource,UITableViewDelegate>
+{
+    NSArray *firms;
+}
+@property (weak, nonatomic) IBOutlet UITextField *whereField;
+@property (weak, nonatomic) IBOutlet UITextField *searchField;
+- (IBAction)search:(id)sender;
+@property (weak, nonatomic) IBOutlet UITableView *firmsTable;
 
 @end
