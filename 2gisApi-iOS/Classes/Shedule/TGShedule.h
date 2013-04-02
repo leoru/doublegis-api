@@ -19,4 +19,6 @@
 @property (nonatomic,retain) TGSat *sat;
 @property (nonatomic,retain) TGSun *sun;
 
+-(void)setDayOfWeek:(TGDayOfWeek *)dayOfWeek forDayName:(NSString *)dayName;
+
 @end

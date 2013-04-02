@@ -7,10 +7,14 @@
 //
 
 #import "TGViewController.h"
+#import "TGDetailViewController.h"
 #import "TGApi.h"
 
 @interface TGViewController ()
-
+{
+    NSString *selectedFifrmID;
+    
+}
 @end
 
 @implementation TGViewController
@@ -69,6 +73,16 @@
 #pragma mark - UITableView Delegate methods
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    TGFirm *firm = firms[indexPath.row];
+    selectedFifrmID = firm.id;
+    [self performSegueWithIdentifier:@"detailSegue" sender:self];
+}
+
+-(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    if ([segue.identifier isEqualToString:@"detailSegue"]) {
+        TGDetailViewController *vc = [segue destinationViewController];
+        vc.firmID = selectedFifrmID;
+    }
     
 }
 @end

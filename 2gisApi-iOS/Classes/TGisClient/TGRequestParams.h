@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
+#define kID @"id"
 #define kWhat @"what"
 #define kWhere @"where"
 #define kPoint @"point"

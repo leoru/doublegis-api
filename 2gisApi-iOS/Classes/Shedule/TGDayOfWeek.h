@@ -7,9 +7,9 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <TGFromJSONProtocol.h>
 
-
-@interface TDWorkingHours : NSObject
+@interface TGWorkingHours : NSObject
 
 @property (nonatomic,retain) NSString *from;
 @property (nonatomic,retain) NSString *to;
@@ -19,8 +19,10 @@
 
 @interface TGDayOfWeek : NSObject
 
-@property (nonatomic,retain) TDWorkingHours *workingHours0;
-@property (nonatomic,retain) TDWorkingHours *workingHours1;
+@property (nonatomic,retain) TGWorkingHours *workingHours0;
+@property (nonatomic,retain) TGWorkingHours *workingHours1;
+
+-(void)fromDictionary:(NSDictionary *)dict;
 
 @end
 
@@ -43,4 +45,11 @@
 @end
 
 @interface TGSun : TGDayOfWeek
+@end
+
+
+@interface TGDayOfWeekFactory : NSObject 
+
++(id)createDayOfWeek:(NSString *)name;
+
 @end

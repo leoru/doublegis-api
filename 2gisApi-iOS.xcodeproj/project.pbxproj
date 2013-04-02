@@ -29,6 +29,7 @@
 		8BDC26AD16FB14BC0008EEBB /* TGViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BDC26AC16FB14BC0008EEBB /* TGViewController.m */; };
 		8BDC26B716FB188C0008EEBB /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BDC26B416FB188C0008EEBB /* MainStoryboard.storyboard */; };
 		8BDC26B816FB188C0008EEBB /* TGAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BDC26B616FB188C0008EEBB /* TGAppDelegate.m */; };
+		A4108721170A93160052EB8F /* TGDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4108720170A93160052EB8F /* TGDetailViewController.m */; };
 		A4E0E4BD17040B9D00389FCB /* TGRequestParams.m in Sources */ = {isa = PBXBuildFile; fileRef = A4E0E4BC17040B9D00389FCB /* TGRequestParams.m */; };
 		A4E0E4C01704100F00389FCB /* TGError.m in Sources */ = {isa = PBXBuildFile; fileRef = A4E0E4BF1704100F00389FCB /* TGError.m */; };
 		A4E0E4C917094F8800389FCB /* TGDetectCity.m in Sources */ = {isa = PBXBuildFile; fileRef = A4E0E4C517094F8800389FCB /* TGDetectCity.m */; };
@@ -77,11 +78,13 @@
 		8BDC26A216FB14BC0008EEBB /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		8BDC26A416FB14BC0008EEBB /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		8BDC26A616FB14BC0008EEBB /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		8BDC26AB16FB14BC0008EEBB /* TGViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TGViewController.h; sourceTree = "<group>"; };
-		8BDC26AC16FB14BC0008EEBB /* TGViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TGViewController.m; sourceTree = "<group>"; };
+		8BDC26AB16FB14BC0008EEBB /* TGViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TGViewController.h; path = ../TGViewController.h; sourceTree = "<group>"; };
+		8BDC26AC16FB14BC0008EEBB /* TGViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = TGViewController.m; path = ../TGViewController.m; sourceTree = "<group>"; };
 		8BDC26B416FB188C0008EEBB /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
 		8BDC26B516FB188C0008EEBB /* TGAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGAppDelegate.h; sourceTree = "<group>"; };
 		8BDC26B616FB188C0008EEBB /* TGAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGAppDelegate.m; sourceTree = "<group>"; };
+		A410871F170A93160052EB8F /* TGDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGDetailViewController.h; sourceTree = "<group>"; };
+		A4108720170A93160052EB8F /* TGDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGDetailViewController.m; sourceTree = "<group>"; };
 		A4E0E4BB17040B9D00389FCB /* TGRequestParams.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGRequestParams.h; sourceTree = "<group>"; };
 		A4E0E4BC17040B9D00389FCB /* TGRequestParams.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGRequestParams.m; sourceTree = "<group>"; };
 		A4E0E4BE1704100F00389FCB /* TGError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGError.h; sourceTree = "<group>"; };
@@ -215,8 +218,6 @@
 			children = (
 				8B40661917014C340036EA64 /* Classes */,
 				8BDC26B316FB188C0008EEBB /* Application */,
-				8BDC26AB16FB14BC0008EEBB /* TGViewController.h */,
-				8BDC26AC16FB14BC0008EEBB /* TGViewController.m */,
 				8BDC269716FB14BC0008EEBB /* Supporting Files */,
 			);
 			path = "2gisApi-iOS";
@@ -239,9 +240,13 @@
 		8BDC26B316FB188C0008EEBB /* Application */ = {
 			isa = PBXGroup;
 			children = (
+				8BDC26AB16FB14BC0008EEBB /* TGViewController.h */,
+				8BDC26AC16FB14BC0008EEBB /* TGViewController.m */,
 				8BDC26B416FB188C0008EEBB /* MainStoryboard.storyboard */,
 				8BDC26B516FB188C0008EEBB /* TGAppDelegate.h */,
 				8BDC26B616FB188C0008EEBB /* TGAppDelegate.m */,
+				A410871F170A93160052EB8F /* TGDetailViewController.h */,
+				A4108720170A93160052EB8F /* TGDetailViewController.m */,
 			);
 			path = Application;
 			sourceTree = "<group>";
@@ -393,6 +398,7 @@
 				A4E0E4CE170950A700389FCB /* TGFirm.m in Sources */,
 				A4E0E4D21709580400389FCB /* TGDayOfWeek.m in Sources */,
 				A4E0E4D51709593100389FCB /* TGShedule.m in Sources */,
+				A4108721170A93160052EB8F /* TGDetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

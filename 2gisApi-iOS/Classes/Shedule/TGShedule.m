@@ -10,4 +10,22 @@
 
 @implementation TGShedule
 
+-(void)setDayOfWeek:(TGDayOfWeek *)dayOfWeek forDayName:(NSString *)dayName{
+    if ([dayName isEqualToString:@"Mon"]) {
+        self.mon = (TGMon *)dayOfWeek;
+    } else if ([dayName isEqualToString:@"Tue"]) {
+        self.tue = (TGTue *)dayOfWeek;
+    } else if ([dayName isEqualToString:@"Wed"]) {
+        self.wed = (TGWed *)dayOfWeek;
+    } else if ([dayName isEqualToString:@"Thu"]) {
+        self.thu = (TGThu *)dayOfWeek;
+    } else if ([dayName isEqualToString:@"Fri"]) {
+        self.fri = (TGFri *)dayOfWeek;
+    } else if ([dayName isEqualToString:@"Sat"]) {
+        self.sat = (TGSat *)dayOfWeek;
+    } else if ([dayName isEqualToString:@"Sun"]) {
+        self.sun = (TGSun *)dayOfWeek;
+    }
+}
+
 @end

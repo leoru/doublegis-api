@@ -8,11 +8,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "2gisApi-iOS/TGViewController.m"
-         timestampString = "386508390.716888"
+         timestampString = "386578618.344487"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "37"
-         endingLineNumber = "37"
+         startingLineNumber = "41"
+         endingLineNumber = "41"
          landmarkName = "-search:"
          landmarkType = "5">
       </FileBreakpoint>
@@ -53,6 +53,58 @@
          startingLineNumber = "56"
          endingLineNumber = "56"
          landmarkName = "-firmsWithParams:success:failure:"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "2gisApi-iOS/Classes/Directory/TGFirm.m"
+         timestampString = "386579034.142201"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "25"
+         endingLineNumber = "25"
+         landmarkName = "+objectFromJSONDictionary:"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "2gisApi-iOS/Classes/Directory/TGFirm.m"
+         timestampString = "386579034.142201"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "55"
+         endingLineNumber = "55"
+         landmarkName = "+objectFromJSONDictionary:"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "2gisApi-iOS/Classes/Directory/TGFirm.m"
+         timestampString = "386579109.610005"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "29"
+         endingLineNumber = "29"
+         landmarkName = "+objectFromJSONDictionary:"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "Yes"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "2gisApi-iOS/Classes/Directory/TGFirm.m"
+         timestampString = "386579212.066745"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "34"
+         endingLineNumber = "34"
+         landmarkName = "+objectFromJSONDictionary:"
          landmarkType = "5">
       </FileBreakpoint>
    </FileBreakpoints>

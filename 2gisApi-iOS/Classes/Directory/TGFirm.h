@@ -42,4 +42,6 @@ typedef enum {
 @property (nonatomic,retain) NSString *value;
 @property (nonatomic,retain) NSString *alias;
 
++(TGFirmContactType)typeFromString:(NSString *)string;
+
 @end
