@@ -9,6 +9,7 @@
 #import "TGViewController.h"
 #import "TGDetailViewController.h"
 #import "TGApi.h"
+#import "TGLocationDetector.h"
 
 @interface TGViewController ()
 {

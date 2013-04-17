@@ -12,6 +12,6 @@
 
 @interface TGLocationDetector : NSObject
 
-+(void)detectUserLocationWithSuccess:(void(^)(NSString *cityName))success failure:(void(^)(void))failure;
++(NSString *)cityWithLocation:(CGPoint)point;
 
 @end

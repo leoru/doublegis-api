@@ -13,22 +13,20 @@
 
 @implementation TGLocationDetector
 
-+(void)detectUserLocationWithSuccess:(void(^)(NSString *))success failure:(void(^)(void))failure {
-//    NSArray *cities = [self citiesList];
-//    CLLocation *location = [((TGAppDelegate *)[UIApplication sharedApplication].delegate) locationManager] location];
-//    CGPoint locationPoint = CGPointMake(location.coordinate.latitude, location.coordinate.longitude);
-//    
-//    for (int i = 0; i < cities.count; i++) {
-//        TGDetectCity *city = cities[i];
-//        city.distanceToUser = [self distanceBetweenPoint1:city.point andPoint2:locationPoint];
-//    }
-//    
-//    TGDetectCity *minCity = [self nearestCityInArray:cities];
-//    
-//    success(minCity.name);
-    success(nil);
++(NSString *)cityWithLocation:(CGPoint)point {
+    NSArray *cities = [self citiesList];
+    CGPoint locationPoint = point;
     
+    for (int i = 0; i < cities.count; i++) {
+        TGDetectCity *city = cities[i];
+        city.distanceToUser = [self distanceBetweenPoint1:city.point andPoint2:locationPoint];
+    }
+    
+    TGDetectCity *minCity = [self nearestCityInArray:cities];
+    
+    return minCity.name;
 }
+
 +(NSArray *)citiesList {
     NSArray *citiesList = [NSArray array];
     NSString *path = [[NSBundle mainBundle] pathForResource:@"cities" ofType:@"plist"];
