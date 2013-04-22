@@ -28,4 +28,31 @@
     }
 }
 
+-(TGDayOfWeek *)dayWithNumber:(int)number{
+    switch (number) {
+        case 1:
+            return self.mon;
+            break;
+        case 2:
+            return self.tue;
+            break;
+        case 3:
+            return self.wed;
+            break;
+        case 4:
+            return self.thu;
+            break;
+        case 5:
+            return self.fri;
+            break;
+        case 6:
+            return self.sat;
+            break;
+        case 7:
+        default:
+            return self.sun;
+            break;
+    }
+}
+
 @end

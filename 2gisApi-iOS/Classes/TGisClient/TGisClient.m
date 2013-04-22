@@ -44,7 +44,7 @@ static TGisClient *_sharedClient;
 -(void)firmsWithParams:(TGRequestParams *)params success:(TGHTTPClientSuccessWithArray)success failure:(TGHTTPClientFailure)failure {
     NSString *urlString = [NSString stringWithFormat:@"/search"];
     urlString = [urlString stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
-    
+
     [self getPath:urlString parameters:[params toDictionary]  success:^(AFHTTPRequestOperation *operation, id responseObject) {
         NSDictionary *response = (NSDictionary *)responseObject;
         NSString *responseCode = response[@"response_code"];
@@ -59,10 +59,10 @@ static TGisClient *_sharedClient;
             
             success(firms);
         } else {
-            
+            failure(nil);
         }
     } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
-        
+        failure(error);
     }];
 }
 

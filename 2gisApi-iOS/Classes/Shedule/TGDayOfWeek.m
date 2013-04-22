@@ -28,8 +28,8 @@
     
     self.workingHours0 = workingHours0;
     self.workingHours1 = workingHours1;
-    
 }
+
 @end
 
 @implementation TGMon

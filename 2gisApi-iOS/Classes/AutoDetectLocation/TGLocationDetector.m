@@ -7,7 +7,6 @@
 //
 
 #import "TGLocationDetector.h"
-#import "TGAppDelegate.h"
 #import <math.h>
 
 

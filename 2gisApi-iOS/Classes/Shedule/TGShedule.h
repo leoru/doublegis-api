@@ -20,5 +20,6 @@
 @property (nonatomic,retain) TGSun *sun;
 
 -(void)setDayOfWeek:(TGDayOfWeek *)dayOfWeek forDayName:(NSString *)dayName;
+-(TGDayOfWeek *)dayWithNumber:(int)number;
 
 @end
