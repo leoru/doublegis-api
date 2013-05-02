@@ -67,14 +67,14 @@
 		8B40664117016A0B0036EA64 /* TGGeoObjectStation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGGeoObjectStation.m; sourceTree = "<group>"; };
 		8B40664317016A7F0036EA64 /* TGGeoObjectSight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGGeoObjectSight.h; sourceTree = "<group>"; };
 		8B40664417016A7F0036EA64 /* TGGeoObjectSight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGGeoObjectSight.m; sourceTree = "<group>"; };
-		8BDC268D16FB14BC0008EEBB /* 2gisApi-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "2gisApi-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BDC268D16FB14BC0008EEBB /* doublegis-api.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "doublegis-api.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BDC269016FB14BC0008EEBB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		8BDC269216FB14BC0008EEBB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		8BDC269416FB14BC0008EEBB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		8BDC269816FB14BC0008EEBB /* 2gisApi-iOS-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "2gisApi-iOS-Info.plist"; sourceTree = "<group>"; };
+		8BDC269816FB14BC0008EEBB /* doublegis-api-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "doublegis-api-Info.plist"; sourceTree = "<group>"; };
 		8BDC269A16FB14BC0008EEBB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8BDC269C16FB14BC0008EEBB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		8BDC269E16FB14BC0008EEBB /* 2gisApi-iOS-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "2gisApi-iOS-Prefix.pch"; sourceTree = "<group>"; };
+		8BDC269E16FB14BC0008EEBB /* doublegis-api-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "doublegis-api-Prefix.pch"; sourceTree = "<group>"; };
 		8BDC26A216FB14BC0008EEBB /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		8BDC26A416FB14BC0008EEBB /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		8BDC26A616FB14BC0008EEBB /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
@@ -187,7 +187,7 @@
 			isa = PBXGroup;
 			children = (
 				A4E0E4D91709A59500389FCB /* CoreLocation.framework */,
-				8BDC269616FB14BC0008EEBB /* 2gisApi-iOS */,
+				8BDC269616FB14BC0008EEBB /* 2gisApi */,
 				8BDC268F16FB14BC0008EEBB /* Frameworks */,
 				8BDC268E16FB14BC0008EEBB /* Products */,
 				7745787E0E3641CC80F7519C /* Pods.xcconfig */,
@@ -197,7 +197,7 @@
 		8BDC268E16FB14BC0008EEBB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8BDC268D16FB14BC0008EEBB /* 2gisApi-iOS.app */,
+				8BDC268D16FB14BC0008EEBB /* doublegis-api.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -213,23 +213,24 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		8BDC269616FB14BC0008EEBB /* 2gisApi-iOS */ = {
+		8BDC269616FB14BC0008EEBB /* 2gisApi */ = {
 			isa = PBXGroup;
 			children = (
 				8B40661917014C340036EA64 /* Classes */,
 				8BDC26B316FB188C0008EEBB /* Application */,
 				8BDC269716FB14BC0008EEBB /* Supporting Files */,
 			);
+			name = 2gisApi;
 			path = "2gisApi-iOS";
 			sourceTree = "<group>";
 		};
 		8BDC269716FB14BC0008EEBB /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				8BDC269816FB14BC0008EEBB /* 2gisApi-iOS-Info.plist */,
+				8BDC269816FB14BC0008EEBB /* doublegis-api-Info.plist */,
 				8BDC269916FB14BC0008EEBB /* InfoPlist.strings */,
 				8BDC269C16FB14BC0008EEBB /* main.m */,
-				8BDC269E16FB14BC0008EEBB /* 2gisApi-iOS-Prefix.pch */,
+				8BDC269E16FB14BC0008EEBB /* doublegis-api-Prefix.pch */,
 				8BDC26A216FB14BC0008EEBB /* Default.png */,
 				8BDC26A416FB14BC0008EEBB /* Default@2x.png */,
 				8BDC26A616FB14BC0008EEBB /* Default-568h@2x.png */,
@@ -294,9 +295,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8BDC268C16FB14BC0008EEBB /* 2gisApi-iOS */ = {
+		8BDC268C16FB14BC0008EEBB /* doublegis-api */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8BDC26B016FB14BC0008EEBB /* Build configuration list for PBXNativeTarget "2gisApi-iOS" */;
+			buildConfigurationList = 8BDC26B016FB14BC0008EEBB /* Build configuration list for PBXNativeTarget "doublegis-api" */;
 			buildPhases = (
 				8BDC268916FB14BC0008EEBB /* Sources */,
 				8BDC268A16FB14BC0008EEBB /* Frameworks */,
@@ -307,9 +308,9 @@
 			);
 			dependencies = (
 			);
-			name = "2gisApi-iOS";
+			name = "doublegis-api";
 			productName = "2gisApi-iOS";
-			productReference = 8BDC268D16FB14BC0008EEBB /* 2gisApi-iOS.app */;
+			productReference = 8BDC268D16FB14BC0008EEBB /* doublegis-api.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -322,7 +323,7 @@
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = crtweb;
 			};
-			buildConfigurationList = 8BDC268816FB14BC0008EEBB /* Build configuration list for PBXProject "2gisApi-iOS" */;
+			buildConfigurationList = 8BDC268816FB14BC0008EEBB /* Build configuration list for PBXProject "doublegis-api" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -334,7 +335,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8BDC268C16FB14BC0008EEBB /* 2gisApi-iOS */,
+				8BDC268C16FB14BC0008EEBB /* doublegis-api */,
 			);
 		};
 /* End PBXProject section */
@@ -477,9 +478,10 @@
 			baseConfigurationReference = 7745787E0E3641CC80F7519C /* Pods.xcconfig */;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "2gisApi-iOS/2gisApi-iOS-Prefix.pch";
-				INFOPLIST_FILE = "2gisApi-iOS/2gisApi-iOS-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "2gisApi-iOS/doublegis-api-Prefix.pch";
+				INFOPLIST_FILE = "2gisApi-iOS/doublegis-api-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "doublegis-api";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -489,9 +491,10 @@
 			baseConfigurationReference = 7745787E0E3641CC80F7519C /* Pods.xcconfig */;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "2gisApi-iOS/2gisApi-iOS-Prefix.pch";
-				INFOPLIST_FILE = "2gisApi-iOS/2gisApi-iOS-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "2gisApi-iOS/doublegis-api-Prefix.pch";
+				INFOPLIST_FILE = "2gisApi-iOS/doublegis-api-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "doublegis-api";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -499,7 +502,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8BDC268816FB14BC0008EEBB /* Build configuration list for PBXProject "2gisApi-iOS" */ = {
+		8BDC268816FB14BC0008EEBB /* Build configuration list for PBXProject "doublegis-api" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8BDC26AE16FB14BC0008EEBB /* Debug */,
@@ -508,7 +511,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8BDC26B016FB14BC0008EEBB /* Build configuration list for PBXNativeTarget "2gisApi-iOS" */ = {
+		8BDC26B016FB14BC0008EEBB /* Build configuration list for PBXNativeTarget "doublegis-api" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8BDC26B116FB14BC0008EEBB /* Debug */,

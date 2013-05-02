@@ -3,7 +3,7 @@
 //  2gisApi-iOS
 //
 //  Created by Developer on 21.03.13.
-//  Copyright (c) 2013 crtweb. All rights reserved.
+//  Copyright (c) 2013 YESWECODE. All rights reserved.
 //
 
 #import "TGViewController.h"
@@ -30,22 +30,24 @@
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 
 - (IBAction)search:(id)sender {
+    
     NSString *what = self.searchField.text;
     NSString *where = self.whereField.text;
     
+    // Составляем параметры запроса
     TGRequestParams *params = [TGRequestParams params];
     [params addParam:kWhat value:what];
     [params addParam:kWhere value:where];
     
+    // Производим запрос на сервер
     [[TGisClient sharedClient] firmsWithParams:params success:^(NSArray *objects) {
         firms = objects;
         [self.firmsTable reloadData];
     } failure:^(NSError *commonError) {
-        
+        // Вывод ошибки
     }];
 }
 

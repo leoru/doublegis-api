@@ -3,7 +3,7 @@
 //  2gisApi-iOS
 //
 //  Created by Кирилл Кунст on 02.04.13.
-//  Copyright (c) 2013 crtweb. All rights reserved.
+//  Copyright (c) 2013 YESWECODE. All rights reserved.
 //
 
 #import "TGDetailViewController.h"

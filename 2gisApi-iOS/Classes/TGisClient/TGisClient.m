@@ -3,7 +3,7 @@
 //  2gisApi-iOS
 //
 //  Created by Danyar Salahutdinov on 26.03.13.
-//  Copyright (c) 2013 crtweb. All rights reserved.
+//  Copyright (c) 2013 YESWECODE. All rights reserved.
 //
 
 #import "TGisClient.h"
@@ -42,6 +42,7 @@ static TGisClient *_sharedClient;
 
 
 -(void)firmsWithParams:(TGRequestParams *)params success:(TGHTTPClientSuccessWithArray)success failure:(TGHTTPClientFailure)failure {
+    
     NSString *urlString = [NSString stringWithFormat:@"/search"];
     urlString = [urlString stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
 
@@ -67,6 +68,7 @@ static TGisClient *_sharedClient;
 }
 
 -(void)firmWithParams:(TGRequestParams *)params success:(void (^)(TGFirm *))success failure:(TGHTTPClientFailure)failure {
+    
     NSString *urlString = [NSString stringWithFormat:@"/profile"];
     urlString = [urlString stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
     
@@ -77,7 +79,7 @@ static TGisClient *_sharedClient;
             TGFirm *firm = [TGFirm objectFromJSONDictionary:response];
             success(firm);
         } else {
-            
+            failure(nil);
         }
     } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
         
