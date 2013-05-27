@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3096CA4A1753EA910004D6C6 /* TGFirmRubrics.m in Sources */ = {isa = PBXBuildFile; fileRef = 3096CA491753EA910004D6C6 /* TGFirmRubrics.m */; };
 		8B40662117014E080036EA64 /* TGConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B40662017014E080036EA64 /* TGConfiguration.m */; };
 		8B406629170151500036EA64 /* TGisClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B406628170151500036EA64 /* TGisClient.m */; };
 		8B40662D1701648F0036EA64 /* TGGeoObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B40662C1701648F0036EA64 /* TGGeoObject.m */; };
@@ -43,6 +44,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3096CA481753EA910004D6C6 /* TGFirmRubrics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TGFirmRubrics.h; path = Directory/TGFirmRubrics.h; sourceTree = "<group>"; };
+		3096CA491753EA910004D6C6 /* TGFirmRubrics.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TGFirmRubrics.m; path = Directory/TGFirmRubrics.m; sourceTree = "<group>"; };
 		4930563015C542F5904871DC /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		7745787E0E3641CC80F7519C /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
 		8B40661F17014E080036EA64 /* TGConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGConfiguration.h; sourceTree = "<group>"; };
@@ -255,6 +258,8 @@
 		A4E0E4B81704078200389FCB /* Directory */ = {
 			isa = PBXGroup;
 			children = (
+				3096CA481753EA910004D6C6 /* TGFirmRubrics.h */,
+				3096CA491753EA910004D6C6 /* TGFirmRubrics.m */,
 				A4E0E4CC170950A700389FCB /* TGFirm.h */,
 				A4E0E4CD170950A700389FCB /* TGFirm.m */,
 			);
@@ -400,6 +405,7 @@
 				A4E0E4D21709580400389FCB /* TGDayOfWeek.m in Sources */,
 				A4E0E4D51709593100389FCB /* TGShedule.m in Sources */,
 				A4108721170A93160052EB8F /* TGDetailViewController.m in Sources */,
+				3096CA4A1753EA910004D6C6 /* TGFirmRubrics.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

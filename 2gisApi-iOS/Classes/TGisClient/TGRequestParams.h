@@ -3,12 +3,11 @@
 //  2gisApi-iOS
 //
 //  Created by Кирилл Кунст on 28.03.13.
-//  Copyright (c) 2013 YESWECODE. All rights reserved.
+//  Copyright (c) 2013 crtweb. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
 
-// Список стандартных параметров для запроса
 #define kID @"id"
 #define kWhat @"what"
 #define kWhere @"where"
@@ -18,8 +17,10 @@
 #define kPagesize @"pagesize"
 #define kOutput @"output"
 #define kSort @"sort"
+#define kBound1 @"bound[point1]"
+#define kBound2 @"bound[point2]"
 
-//Сортировка
+//sorting
 #define kSortRelevance @"relevance"
 #define kSortRating @"rating"
 #define kSortName @"name"

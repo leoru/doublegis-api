@@ -3,7 +3,7 @@
 //  2gisApi-iOS
 //
 //  Created by Danyar Salahutdinov on 26.03.13.
-//  Copyright (c) 2013 YESWECODE. All rights reserved.
+//  Copyright (c) 2013 crtweb. All rights reserved.
 //
 
 #import "TGisClient.h"
@@ -40,17 +40,21 @@ static TGisClient *_sharedClient;
     return self;
 }
 
+-(void)cancelAllOperations{
+    NSOperationQueue *queue = [self operationQueue];
+    if ([queue operationCount] > 0)
+        [queue cancelAllOperations];
+}
 
 -(void)firmsWithParams:(TGRequestParams *)params success:(TGHTTPClientSuccessWithArray)success failure:(TGHTTPClientFailure)failure {
-    
     NSString *urlString = [NSString stringWithFormat:@"/search"];
-    urlString = [urlString stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
-
-    [self getPath:urlString parameters:[params toDictionary]  success:^(AFHTTPRequestOperation *operation, id responseObject) {
-        NSDictionary *response = (NSDictionary *)responseObject;
-        NSString *responseCode = response[@"response_code"];
+    NSURLRequest *request = [self requestWithMethod:@"GET" path:urlString parameters:[params toDictionary]];
+    NSLog(request.description);
+    AFJSONRequestOperation *operation = [AFJSONRequestOperation JSONRequestOperationWithRequest:request success:^(NSURLRequest *request, NSHTTPURLResponse *response, id JSON) {
+        NSDictionary *responseDict = (NSDictionary *)JSON;
+        NSString *responseCode = responseDict[@"response_code"];
         if ([responseCode isEqualToString:@"200"]) {
-            NSDictionary *result = response[@"result"];
+            NSDictionary *result = responseDict[@"result"];
             
             NSArray *firms = [NSArray array];
             for (NSDictionary *resultDict in result) {
@@ -60,30 +64,33 @@ static TGisClient *_sharedClient;
             
             success(firms);
         } else {
+            NSString *error = responseDict[@"error_message"];
+            NSLog(error);
             failure(nil);
         }
-    } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
+    } failure:^(NSURLRequest *request, NSHTTPURLResponse *response, NSError *error, id JSON) {
         failure(error);
     }];
+    [self enqueueHTTPRequestOperation:operation];
 }
 
 -(void)firmWithParams:(TGRequestParams *)params success:(void (^)(TGFirm *))success failure:(TGHTTPClientFailure)failure {
-    
     NSString *urlString = [NSString stringWithFormat:@"/profile"];
-    urlString = [urlString stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
-    
-    [self getPath:urlString parameters:[params toDictionary]  success:^(AFHTTPRequestOperation *operation, id responseObject) {
-        NSDictionary *response = (NSDictionary *)responseObject;
-        NSString *responseCode = response[@"response_code"];
+    NSURLRequest *request = [self requestWithMethod:@"GET" path:urlString parameters:[params toDictionary]];
+    NSLog(request.description);
+    AFJSONRequestOperation *operation = [AFJSONRequestOperation JSONRequestOperationWithRequest:request success:^(NSURLRequest *request, NSHTTPURLResponse *response, id JSON) {
+        NSDictionary *responseDict = (NSDictionary *)JSON;
+        NSString *responseCode = responseDict[@"response_code"];
         if ([responseCode isEqualToString:@"200"]) {
-            TGFirm *firm = [TGFirm objectFromJSONDictionary:response];
+            TGFirm *firm = [TGFirm objectFromJSONDictionary:responseDict];
             success(firm);
         } else {
-            failure(nil);
+            
         }
-    } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
+    } failure:^(NSURLRequest *request, NSHTTPURLResponse *response, NSError *error, id JSON) {
         
     }];
+    [self enqueueHTTPRequestOperation:operation];
 }
 
 @end

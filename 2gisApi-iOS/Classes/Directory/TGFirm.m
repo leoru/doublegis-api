@@ -3,7 +3,7 @@
 //  2gisApi-iOS
 //
 //  Created by Кирилл Кунст on 01.04.13.
-//  Copyright (c) 2013 YESWECODE. All rights reserved.
+//  Copyright (c) 2013 crtweb. All rights reserved.
 //
 
 #import "TGFirm.h"
@@ -21,7 +21,13 @@
     firm.name = ((NSString *)dict[@"name"]);
     firm.city_name = ((NSString *)dict[@"city_name"]);
     firm.address = ((NSString *)dict[@"address"]);
-    
+    if (dict[@"additional_info"]){
+        NSDictionary *additionalInfo = (NSDictionary *)dict[@"additional_info"];
+        if (additionalInfo[@"office"]){
+            NSString *office = additionalInfo[@"office"];
+            firm.address = [NSString stringWithFormat:@"%@, %@",firm.address,office];
+        }
+    }
     if (dict[@"schedule"]) {
         NSDictionary *sheduleDict = dict[@"schedule"];
         TGShedule *shedule = [[TGShedule alloc] init];
@@ -37,6 +43,10 @@
         firm.shedule = shedule;
     }
     
+    if (dict[@"rubrics"]){
+        NSArray *array = (NSArray *)dict[@"rubrics"];
+        firm.rubrics = [[TGFirmRubrics alloc] initWithArray:array];
+    }
     
     if (dict[@"contacts"]) {
         NSArray *contacts = [NSArray array];
@@ -56,7 +66,6 @@
     }
     return firm;
 }
-
 @end
 
 @implementation TGFirmContact
