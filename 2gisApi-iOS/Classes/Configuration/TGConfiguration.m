@@ -11,7 +11,7 @@
 @implementation TGConfiguration
 
 +(NSString *)apiKey{
-    return @"rusqmy7744";
+    return @"";
 }
 
 +(NSString *)version{
